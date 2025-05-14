@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "create_cryo_alchemy",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Create: Cryo-Alchemy",
+  "description": "This is the best potion mod you'll ever find! Good luck.",
   "authors": [
     "Me!"
   ],
@@ -15,11 +15,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.modid.ExampleMod"
+      "pl.supercraft.create.cryo_alchemy.Mod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${fabric_loader_version}",
